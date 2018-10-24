@@ -1,0 +1,160 @@
+// @import '~bootstrap/scss/bootstrap'
+// /* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+/*  background-image:url("https://i.imgur.com/M4FMXjy.jpg");*/
+/*  background-repeat: no-repeat;*/
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  max-height: inherit
+
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+p{
+font-size: 20px;
+color:#444;
+}
+.photo {
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 50px;
+  position: relative;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border-radius: %;
+  border: 10px solid white;
+  margin-right: -220px;
+  margin-top: -1px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  border:20px solid;
+  margin:20px;
+  padding:20px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+#favorite {
+  // color:;
+  font-size: 25px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#container{
+margin-left: 40%;
+text-align: center;
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+h2{
+  color:grey;
+}
+.myImage {
+  background-image: url("coverpic.jpg");
+  background: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  max-height: 800px;
+  // max-width:
+}
